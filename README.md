@@ -26,11 +26,11 @@ regular `Promise`.
 ## Installation and usage
 
 ```bash
-npm install --save @softwareventures/promise-ponyfill
+npm install --save promise-ponyfill
 ```
 
 ```typescript
-import Promise from "@softwareventures/promise-ponyfill";
+import Promise from "promise-ponyfill";
 
 const promise = new Promise((resolve, reject) =>
                             setTimeout(resolve, 1000));
