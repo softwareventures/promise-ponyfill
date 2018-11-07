@@ -3,3 +3,4 @@
 /tslint.json
 *.ts
 !*.d.ts
+/types.d.ts
