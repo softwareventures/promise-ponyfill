@@ -1,0 +1,23 @@
+{
+  "name": "promise-ponyfill",
+  "version": "0.0.0",
+  "description": "Preconfigured Promise ponyfill based on promise-polyfill and setasap",
+  "keywords": [
+    "promise",
+    "ponyfill",
+    "typescript"
+  ],
+  "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
+  "homepage": "https://github.com/softwareventures/promise-ponyfill",
+  "bugs": "https://github.com/softwareventures/promise-ponyfill/issues",
+  "license": "ISC",
+  "repository": "github:softwareventures/promise-ponyfill",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "devDependencies": {
+    "@softwareventures/tslint-rules": "^0.4.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  }
+}
