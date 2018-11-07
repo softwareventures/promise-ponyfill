@@ -1,6 +1,6 @@
 {
   "name": "promise-ponyfill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Preconfigured Promise ponyfill based on promise-polyfill and setasap",
   "keywords": [
     "promise",
