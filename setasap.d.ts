@@ -3,7 +3,8 @@
 // Definitions by: Daniel Cassidy <https://github.com/djcsdy>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-export = setAsap;
-export as namespace setAsap;
+declare module "setasap" {
+    export = setAsap;
+}
 
 declare function setAsap(handler: (() => void) | string): void;
