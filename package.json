@@ -13,7 +13,8 @@
   "license": "ISC",
   "repository": "github:softwareventures/promise-ponyfill",
   "scripts": {
-    "prepare": "tsc"
+    "prepare": "tsc",
+    "lint": "tslint --project ."
   },
   "devDependencies": {
     "@softwareventures/tslint-rules": "^0.4.0",
