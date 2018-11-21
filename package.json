@@ -22,6 +22,7 @@
     "typescript": "^3.1.6"
   },
   "dependencies": {
+    "@types/promise-polyfill": "^6.0.1",
     "@types/setasap": "^2.0.0",
     "promise-polyfill": "^8.1.0",
     "setasap": "^2.0.1"
