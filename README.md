@@ -1,7 +1,5 @@
 # promise-ponyfill
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/softwareventures/promise-ponyfill.svg)](https://greenkeeper.io/)
-
 Preconfigured `Promise` [ponyfill][1] based on [promise-polyfill][2] and
 [setasap][3].
 
