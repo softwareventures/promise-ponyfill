@@ -1,6 +1,6 @@
 {
   "name": "promise-ponyfill",
-  "version": "1.0.2",
+  "version": "1.0.3-development",
   "description": "Preconfigured Promise ponyfill based on promise-polyfill and setasap",
   "keywords": [
     "promise",
@@ -14,13 +14,15 @@
   "repository": "github:softwareventures/promise-ponyfill",
   "scripts": {
     "prepare": "tslint --project . && tsc",
-    "test": "echo No tests yet"
+    "test": "echo No tests yet",
+    "semantic-release": "semantic-release"
   },
   "sideEffects": false,
   "devDependencies": {
     "@softwareventures/tsconfig": "1.0.0",
     "@softwareventures/tslint-rules": "0.6.4",
     "cz-conventional-changelog": "2.1.0",
+    "semantic-release": "15.13.3",
     "tslint": "5.12.1",
     "typescript": "3.2.4"
   },
