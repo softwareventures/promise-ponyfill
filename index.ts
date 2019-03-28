@@ -1,4 +1,4 @@
-import Polyfill from "promise-polyfill";
+import Polyfill = require("promise-polyfill");
 import setasap = require("setasap");
 
 Polyfill._immediateFn = setasap;
