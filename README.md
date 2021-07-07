@@ -1,3 +1,8 @@
+# Deprecated
+
+All reasonably modern platforms support native Promises, so this library
+is obsolete. Use the native [Promise][5] API instead.
+
 # promise-ponyfill
 
 Preconfigured `Promise` [ponyfill][1] based on [promise-polyfill][2] and
@@ -63,3 +68,4 @@ licensing terms. See the documentation for those modules.
   [2]: https://www.npmjs.com/package/promise-polyfill
   [3]: https://www.npmjs.com/package/setasap
   [4]: https://github.com/softwareventures/promise-ponyfill/issues
+  [5]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
